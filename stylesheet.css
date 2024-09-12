@@ -1,0 +1,202 @@
+body {
+  padding-bottom: 100px;
+}
+  
+  .video-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  video{ 
+      width: 100%;
+    }
+
+  .video-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+  }
+
+
+  nav{
+      font-size: 12pt;
+      font-family: 'Oswald', sans-serif;
+      position: relative;
+      
+  }
+
+  nav a{
+      line-height: 50px;
+    height: 50px;
+  }
+  nav li a{
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    
+  }
+
+    ul{
+      background-color: rgb(51, 51, 51);
+      text-align: center;
+    }
+    li{
+      display: inline-block;
+      position: relative;
+    }
+    li a{
+      color: #ffffff;
+      text-align: center;
+      padding: 14.5px 16px;
+      text-decoration: none;
+    }
+    li a:hover{
+      color: #FFD400;
+      font-weight:normal;
+    }
+    .menu {
+        width: 7000px;
+        height: 50px;
+        max-width: 100%;
+        position: fixed;
+        opacity: 0.8;
+        top: -18px;
+        left: -0.3px;
+        z-index: 1;
+   }
+ 
+   /*--three images--*/
+
+   .row{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+   }
+  
+
+   .main-col{
+     flex-basis: 32%;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     margin-left: auto;
+     position: relative;
+     overflow: hidden;
+      
+ 
+   }
+   
+   .main-col img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+   }
+
+
+  .P p{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5%;
+  }
+
+  .bottom {
+    flex-basis: 10%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin-top: 15%;
+  }
+
+  .fps {
+    flex-basis: 10%;
+     border-radius: 40px;
+     position: relative;
+     overflow: hidden;
+  }
+
+  .fps img{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .fps_ex {
+     color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 50px;
+  }
+  .fps_p {
+    font-size: 60px;
+  }
+
+  .fps_p2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+  }
+  
+  .moba {
+    flex-basis: 10%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin-top: 15%;
+  }
+
+  .moba_img {
+    flex-basis: 10%;
+     border-radius: 40px;
+     position: relative;
+     overflow: hidden;
+  }
+
+  .moba_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .moba_ex {
+    color: #ffffff;
+   font-family: 'Oswald', sans-serif;
+   padding-bottom: 50px;
+ }
+ .moba_p {
+   font-size: 60px;
+ }
+
+ .moba_p2 {
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 30px;
+ }
+
+ .line {
+   margin-bottom: 5%;
+ }
+
+ .bottom_info {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+ }
+
+ .bottom_email {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+ }

@@ -1,0 +1,123 @@
+body{
+  padding-bottom: 100px;
+}
+
+nav{
+    font-size: 12pt;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    
+}
+
+nav a{
+    line-height: 50px;
+  height: 50px;
+}
+nav li a{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  
+}
+
+  ul{
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+    position: relative;
+  }
+  li a{
+    color: #ffffff;
+    text-align: center;
+    padding: 14.5px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: #FFD400;
+    font-weight:normal;
+  }
+  .menu {
+      width: 7000px;
+      height: 50px;
+      max-width: 100%;
+      position: fixed;
+      opacity: 0.8;
+      top: -18px;
+      left: -0.3px;
+      z-index: 1;
+ }
+
+.video-lol {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  video{ 
+    width: 100%;
+  }
+
+  .top_p {
+  color: red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  }
+
+  .lol_img {
+    width: 70%;
+    height: 70%;
+    flex-basis: 30%;
+    border-radius: 100px;
+    border-bottom: 100px;
+     position: relative;
+     overflow: hidden;
+  }
+
+  .lol_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .lol{
+    width: 70%;
+    height: 60%;
+  }
+
+  .top_ex {
+    color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  }
+
+  .mid_p {
+    color: red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  }
+
+  .mid_ex{
+    color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  margin-bottom: 5%;
+  }
+
+  .bottom_info {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+   }
+  
+   .bottom_email {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+   }
+
+   .line {
+    margin-bottom: 5%;
+  }
+  
